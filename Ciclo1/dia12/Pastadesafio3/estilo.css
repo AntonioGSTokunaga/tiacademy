@@ -1,0 +1,57 @@
+body{
+		margin: 0;
+		background-color: darkcyan;
+	}
+
+header, footer{
+		width: 100%;
+		height: 40px;
+		border-bottom: 1px solid #000;
+		background-image: linear-gradient(180deg, violet, gray);
+		position: fixed; 
+	}
+header{
+		top: 0;
+		display: flex;
+	}
+footer{
+		border-bottom: 0;
+		border-top: 1px solid #000;
+		position: fixed; 
+		bottom: 0;
+		background-image: linear-gradient(0deg, violet, gray);
+	}
+main{
+		width: 100%;
+		height: auto;
+		background-color: darkcyan;
+	}
+
+p{
+	color: floralwhite;
+}
+
+.divbox{
+		margin: 10px;
+		margin-top: 45px;
+		display: flex;
+	}
+.divtext{
+		width: 80%;
+		margin: 0 auto;
+	}
+.quadrado{
+		width: 20px;
+		height: 20px;		
+		background-image: linear-gradient(0deg, violet, gray, violet);
+		position: absolute;
+		bottom: 45px;
+		left: 20px;		
+		}
+@media screen and (max-width: 700px){
+	.divbox{
+		flex-direction: column;
+		}
+	.quadrado{
+		display: none;
+		}

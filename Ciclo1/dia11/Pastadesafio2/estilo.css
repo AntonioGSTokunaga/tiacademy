@@ -1,0 +1,116 @@
+input[type=text] {
+		position: absolute;
+		left: 51%;
+		top: 43.5%;
+		border-radius: 5px;
+	}
+
+	input[type=submit] {
+		position: absolute;
+		left: 54%;
+		top: 50%;
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+		background-color: skyblue;
+	}
+
+	header, footer {
+		width: 100%;
+		height: 5%;
+		background-color: silver;
+		display: flex;
+		position: fixed;
+		}
+
+	header {
+		border-top: 0;
+		top: 0;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	footer{
+		border-bottom: 0;
+		bottom: 0;
+		height: 10%;
+	}
+
+	main {
+		width: 100%;
+		height: auto;
+		margin-top: 10%
+	}
+
+	div{
+		color: blueviolet;
+		font-size: 20px;
+	}
+
+	a {
+		text-decoration: none;
+		font-family: verdana, arial;
+		color: blueviolet;
+	}
+
+	.leftheader{
+		align-self: center;
+		margin-left: 10%;
+	}
+
+	.rightheader{
+		align-items: center;
+		margin-right: 10%;
+	}
+
+	.footer{
+		align-self: center;
+		margin-left: 45%;
+		margin-right: 45%;
+	}
+
+	.btn-main{
+		width: 400px;
+		margin: 0 auto;
+		display: flex;
+		margin-top: 1%;
+	}
+
+	.btn:hover{
+		background-color: aliceblue;
+	}
+
+	.btn{
+		width: 400px;
+		height: 40px;
+		box-sizing: border-box;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+	}
+
+	#content{
+		width: 17%;
+		height: 17%;
+		box-sizing: border-box;
+		margin: 0 auto;
+		position: absolute;
+		right: 50%;
+		top: 36%;
+		color: darkblue;
+		border-right: 1px dashed whitesmoke;	
+		background-color: steelblue;
+	}
+
+	#content2{
+		width: 10%;
+		height: auto;
+		box-sizing: border-box;
+		margin: 0 auto;
+		position: absolute;
+		right: 39%;
+		top: 36%;
+	}
